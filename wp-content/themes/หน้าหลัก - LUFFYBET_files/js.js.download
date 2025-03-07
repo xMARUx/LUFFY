@@ -1,0 +1,18 @@
+    $('.overlaysidebar').on('click', function () {
+        $('.insidebarleft').toggleClass('active');
+        $('.overlaysidebar').toggleClass('active');
+        $('.sidebarCollapse').toggleClass('open');
+    });
+    $('.sidebarCollapse,.togglemenu').on('click', function () {
+        $('.insidebarleft').toggleClass('active');
+        $('.overlaysidebar').toggleClass('active');
+        $('.sidebarCollapse').toggleClass('open');
+    });
+
+$('#hidedownload').on('click', function () {
+        $('#downloadbox').hide();
+    });
+
+
+
+
