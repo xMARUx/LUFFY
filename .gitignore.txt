@@ -1,0 +1,14 @@
+# System files
+AppData/
+ntuser.dat*
+Cookies/
+Local Settings/
+My Documents/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# IDE settings
+.vscode/
+.ipython/
